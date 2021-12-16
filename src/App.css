@@ -1,0 +1,165 @@
+
+/* header {
+  background-color: #282c34;
+ 
+} */
+
+.title{
+  font-family: 'Sacramento', cursive;
+  font-size: 28px;
+}
+.SubHeading{
+  font-family: 'Rancho', cursive;
+  background-color: darkseagreen;
+  padding-left: 94px;
+  font-size: 45px;
+}
+.SubHeadingSec img{
+    height: 35px;
+    position: absolute;
+    top: 217px;
+    left: 50px;
+}
+
+.navbar-posi{
+  position: fixed;
+  width: 100%;
+  top:0px;
+}
+
+.titleHead{
+  text-align: center;
+  color:black;
+  background-color: darksalmon;
+  font-weight: bolder;
+  font-size:70px;
+  margin-top: 68px;
+  width: 100%;
+}
+.Products{
+  background-color: bisque;
+  float:left;
+  width:1249px
+}
+.prod{
+  margin: 40px;
+  margin-left: 100px;
+  /* border:3px solid red; */
+  width: fit-content;
+  text-align: center;
+  float:left;
+  color:black;
+
+}
+.Prod1 img{
+  height: 370px;
+  /* margin: 40px;
+  margin-left: 80px; */
+  border: 0px solid black;
+  border-radius: 8px;
+}
+.Prod2 img{
+  height: 370px;
+  /* margin: 40px;
+  margin-left: 80px; */
+  border: 0px solid black;
+  border-radius: 8px; 
+}
+.btn-addcart{
+  background-color: palegreen;
+  font-weight:bolder;
+  color:white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.btn-removecart{
+  background-color: lightcoral;
+  font-weight:bolder;
+  color:white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.bag-count{
+  filter: invert(1);
+  height: 34px;
+  position: relative;
+  right: 46px;
+  cursor:pointer;
+}
+
+.cartTotal{
+  width: fit-content;
+  float: right;
+  border: 5px solid black;
+  padding: 22px;
+  position: relative;
+  top: 200px;
+  right: 120px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: black;
+    color: white;
+    text-align: center;
+    padding:4px;
+}
+.footerText{
+  font-size: 18px;
+}
+
+.bagCount{
+  color: white;
+    background-color: red;
+    padding: 3px;
+    width: 31px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    right: 56px;
+    top: -14px;
+    font-weight: bold;
+}
+
+.miniCart{
+  border: 2px solid black;
+  position: fixed;
+  right: 4px;
+  top: 66px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: beige;
+}
+.tbhead{
+  padding:10px;
+  color:black;
+}
+
+.tableRow{
+  padding:5px;
+}
+.tbheading{
+  background-color: burlywood;
+}
+.tbTotal1{
+  padding:0px 15px;
+}
+.tbTotal2{
+  padding:0px 10px;
+  float:right;
+}
+.cross{
+  text-align: end;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+  position: initial;
+}
+
+.mini-cart-img{
+  height: 50px;
+  width: auto;
+}
